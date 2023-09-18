@@ -84,7 +84,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
       then
@@ -93,7 +93,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -131,7 +131,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
       then
@@ -140,7 +140,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -178,7 +178,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
       then
@@ -187,7 +187,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -225,7 +225,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
       then
@@ -234,7 +234,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -273,7 +273,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
       then
@@ -282,7 +282,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -317,7 +317,7 @@ case ${osinfo} in
       mv geckodriver /usr/bin
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
       then
@@ -326,7 +326,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv geckodriver /usr/bin
     fi
@@ -364,11 +364,11 @@ case ${osinfo} in
       rm geckodriver-v0.32.0-linux64.tar.gz
     elif [ ${MACHINE_TYPE} == 'aarch64']; then
       wget ${geckodriverarch64}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm geckodriver-v0.33.0-linux64.tar.gz
     else
       wget ${geckodriver_x86_32}
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz -C /usr/bin
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz -C /usr/bin
       rm geckodriver-v0.33.0-linux-aarch64.tar.gz
     fi
     cd ..
@@ -410,7 +410,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       curl ${geckodriver_x86_32} -LO
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm -f geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv -f geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -460,7 +460,7 @@ case ${osinfo} in
       ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
     else
       curl ${geckodriver_x86_32} -LO
-      tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+      tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
       rm -f geckodriver-v0.33.0-linux-aarch64.tar.gz
       mv -f geckodriver /usr/sbin
       if [ -e /usr/bin/geckodriver ]
@@ -505,7 +505,7 @@ case ${osinfo} in
         ln -s /usr/sbin/geckodriver /usr/bin/geckodriver
       else
         wget ${geckodriver_x86_32}
-        tar -xzv geckodriver-v0.33.0-linux-aarch64.tar.gz
+        tar -xzf geckodriver-v0.33.0-linux-aarch64.tar.gz
         rm geckodriver-v0.33.0-linux-aarch64.tar.gz
         mv geckodriver /usr/sbin
         if [ -e /usr/bin/geckodriver ]
